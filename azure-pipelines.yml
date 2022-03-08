@@ -13,6 +13,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      javac AddTwoNumbers.java
+      javac sum.java
       
       java AddTwoNumbers
